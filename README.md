@@ -2,6 +2,7 @@
 This project is creating a porfolio to showcase your skills and talent to employers looking to fill a given position. 
 
 Github Repo: https://github.com/TuddaT0224/Professional-Portfolio.git
+Deployed link: https://tuddat0224.github.io/Professional-Portfolio/
 
 ## User Story
 
