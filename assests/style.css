@@ -95,3 +95,26 @@ section {
     width: 90%;
     align-items: center;
 }
+
+.flex-row {
+    display: flex;
+    justify-content: left;
+}
+
+.section-title {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2A4D6E;
+    margin: 0 0 0 80px;
+    width: 50%;
+    text-decoration: none;
+    border-right: 4px solid;
+    
+}
+
+.step-info {
+    flex: 2 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
