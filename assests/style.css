@@ -68,7 +68,7 @@ section {
     position: relative;
 }
 
-/* Add Photo*/
+/* Add Photo to hero*/
 .image2 {
     position: absolute;
     top: 150px;
@@ -174,3 +174,80 @@ section {
     border: solid 1px #2A4D6E;
 }
 
+figcaption {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -20%;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    color: #2A4D6E;
+    border: solid 1px #2A4D6E;
+    background-color: #AA7c39;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    position: relative;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gallery__item--4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.gallery__item--5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+/* About section */
+.v1-border3 {
+    border-right: 3px solid white;
+    height: 100px;
+    flex: 2 5%;
+}
+
+.contact-info {
+    flex: 150;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.contact-info ul li a {
+    margin: 0 30px;
+    font-size: 18px;
+    color: #2A4D6E;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding-bottom: 2px;
+}
